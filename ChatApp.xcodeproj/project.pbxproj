@@ -12,6 +12,9 @@
 		FC85E3F21DE3B183004AE574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC85E3F01DE3B183004AE574 /* Main.storyboard */; };
 		FC85E3F41DE3B183004AE574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC85E3F31DE3B183004AE574 /* Assets.xcassets */; };
 		FC85E3F71DE3B183004AE574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC85E3F51DE3B183004AE574 /* LaunchScreen.storyboard */; };
+		FC85E4051DE3B1A8004AE574 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85E4001DE3B1A8004AE574 /* AVCamCameraViewController.m */; };
+		FC85E4061DE3B1A8004AE574 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85E4021DE3B1A8004AE574 /* AVCamPhotoCaptureDelegate.m */; };
+		FC85E4071DE3B1A8004AE574 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85E4041DE3B1A8004AE574 /* AVCamPreviewView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,13 @@
 		FC85E3F31DE3B183004AE574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC85E3F61DE3B183004AE574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC85E3F81DE3B183004AE574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC85E3FE1DE3B1A7004AE574 /* ChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC85E3FF1DE3B1A8004AE574 /* AVCamCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCameraViewController.h; sourceTree = "<group>"; };
+		FC85E4001DE3B1A8004AE574 /* AVCamCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCameraViewController.m; sourceTree = "<group>"; };
+		FC85E4011DE3B1A8004AE574 /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
+		FC85E4021DE3B1A8004AE574 /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
+		FC85E4031DE3B1A8004AE574 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		FC85E4041DE3B1A8004AE574 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,19 @@
 		FC85E3EB1DE3B183004AE574 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC85E3FF1DE3B1A8004AE574 /* AVCamCameraViewController.h */,
+				FC85E4001DE3B1A8004AE574 /* AVCamCameraViewController.m */,
+				FC85E4011DE3B1A8004AE574 /* AVCamPhotoCaptureDelegate.h */,
+				FC85E4021DE3B1A8004AE574 /* AVCamPhotoCaptureDelegate.m */,
+				FC85E4031DE3B1A8004AE574 /* AVCamPreviewView.h */,
+				FC85E4041DE3B1A8004AE574 /* AVCamPreviewView.m */,
 				FC85E3EC1DE3B183004AE574 /* AppDelegate.swift */,
 				FC85E3EE1DE3B183004AE574 /* ViewController.swift */,
 				FC85E3F01DE3B183004AE574 /* Main.storyboard */,
 				FC85E3F31DE3B183004AE574 /* Assets.xcassets */,
 				FC85E3F51DE3B183004AE574 /* LaunchScreen.storyboard */,
 				FC85E3F81DE3B183004AE574 /* Info.plist */,
+				FC85E3FE1DE3B1A7004AE574 /* ChatApp-Bridging-Header.h */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -97,6 +114,7 @@
 					FC85E3E81DE3B183004AE574 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2WAWR77T4M;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +157,9 @@
 			files = (
 				FC85E3EF1DE3B183004AE574 /* ViewController.swift in Sources */,
 				FC85E3ED1DE3B183004AE574 /* AppDelegate.swift in Sources */,
+				FC85E4051DE3B1A8004AE574 /* AVCamCameraViewController.m in Sources */,
+				FC85E4061DE3B1A8004AE574 /* AVCamPhotoCaptureDelegate.m in Sources */,
+				FC85E4071DE3B1A8004AE574 /* AVCamPreviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +280,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2WAWR77T4M;
 				INFOPLIST_FILE = ChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.mikael.ChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChatApp/ChatApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,11 +297,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2WAWR77T4M;
 				INFOPLIST_FILE = ChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.mikael.ChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChatApp/ChatApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
